@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Spline Sans Mono", monospace;
+    src: url(./SplineSansMono-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Wix Made For Display", sans-serif;
+    src: url(./WixMadeforDisplay-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-display: swap;
+}

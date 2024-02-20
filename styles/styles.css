@@ -1,0 +1,36 @@
+.content {
+    font-family: var(--main-font);
+    background-color: var(--main-bg-color);
+}
+
+.header {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.header__navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.header__title {
+    font-size: 1.25em;
+}
+
+.picture__list {
+    padding: 100px 0 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    height: 200px;
+}
+
+.picture__list-item {
+    height: inherit;
+}
